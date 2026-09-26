@@ -1,5 +1,9 @@
 # Enterprise Network Infrastructure
 
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco%20Packet%20Tracer-9.0.1-1BA0D7?logo=cisco&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-Enterprise%20Infrastructure-blue)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
+
 A 3-tier enterprise network built and simulated in Cisco Packet Tracer, 
 demonstrating VLAN segmentation, inter-VLAN routing, gateway redundancy, 
 and traffic security policies.
