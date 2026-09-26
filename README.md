@@ -40,8 +40,8 @@ virtual interfaces) on the distribution layer.
 
 ## Redundancy — HSRP
 
-All 6 VLANs run HSRP (Hot Standby Router Protocol) across two distribution 
-switches, providing automatic gateway failover:
+HSRP (Hot Standby Router Protocol) is configured across two distribution 
+switches for all 6 VLANs, providing automatic gateway failover:
 
 - **Multilayer Switch1** — Active (priority 110)
 - **Multilayer Switch0** — Standby (priority 100)
