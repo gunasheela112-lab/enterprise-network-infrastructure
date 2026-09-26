@@ -58,15 +58,18 @@ Two ACLs enforce traffic segmentation between departments:
 
 1. **GUEST_RESTRICT** — blocks Guest WiFi (VLAN 99) from reaching IT, 
    Finance, HR, and Servers, while still permitting general traffic
-2. **SALES_RESTRICT** — blocks Sales (VLAN 40) from directly reaching 
-   the Servers VLAN (50), reflecting realistic access boundaries
+2. **SALES_RESTRICT** — blocks Sales (VLAN 40) from directly reaching the 
+   Servers VLAN (50), reflecting realistic access boundaries
 
 ![Access Lists](access%20lists.jpg)
 
 ## Verification
 
 Inter-VLAN routing was tested and confirmed working end-to-end, with 
-0% packet loss between hosts in different VLANs:
+0% packet loss between hosts in different VLANs.
+
+DHCP address assignment was also verified on VLAN 10, VLAN 20, and VLAN 30, 
+with successful connectivity to their HSRP virtual gateways.
 
 ![Ping Results](ping%20results.jpg)
 
@@ -75,6 +78,7 @@ Inter-VLAN routing was tested and confirmed working end-to-end, with
 - VLAN design and trunking (802.1Q)
 - Inter-VLAN routing via SVIs on multilayer switches
 - First-hop redundancy protocols (HSRP)
+- DHCP pool configuration for automated endpoint addressing
 - Access control list design for network segmentation
 - Systematic network troubleshooting (diagnosed and resolved multiple 
   trunk misconfigurations during build/test)
