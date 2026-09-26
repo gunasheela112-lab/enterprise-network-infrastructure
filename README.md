@@ -18,7 +18,7 @@ corporate networks.
   inter-VLAN routing and redundancy
 - **Access layer:** 4 switches (Cisco 2960) connecting end-user devices
 
-![Topology](screenshots/topology.png)
+![Topology](Topology%20%283%29.jpg)
 
 ## VLAN Design
 
@@ -46,7 +46,7 @@ Each VLAN shares a virtual gateway IP (e.g., 192.168.10.254) so that if
 the active switch fails, the standby takes over transparently with no 
 manual reconfiguration on end devices.
 
-![HSRP Status](screenshots/hsrp-vlan-status.png)
+![HSRP Status](hsrp-vlan-status.jpg)
 
 ## Security — Access Control Lists
 
@@ -57,14 +57,14 @@ Two ACLs enforce traffic segmentation between departments:
 2. **SALES_RESTRICT** — blocks Sales (VLAN 40) from directly reaching 
    the Servers VLAN (50), reflecting realistic access boundaries
 
-![Access Lists](screenshots/access-lists.png)
+![Access Lists](access%20lists.jpg)
 
 ## Verification
 
 Inter-VLAN routing was tested and confirmed working end-to-end, with 
 0% packet loss between hosts in different VLANs:
 
-![Ping Results](screenshots/ping-results.png)
+![Ping Results](ping%20results.jpg)
 
 ## Skills Demonstrated
 
