@@ -114,6 +114,7 @@ These files provide the CLI configuration evidence for the devices used in the l
 ## Notes
 
 - The STP root and HSRP Active gateway are intentionally aligned on Multilayer Switch0 so Layer 2 and Layer 3 forwarding paths are consistent.
+- Multilayer Switch0 uses the .2 SVI addresses (HSRP Active, priority 150, STP root). Multilayer Switch1 uses the .1 SVI addresses (HSRP Standby, priority 110).
 - Lab passwords are not used in the published configurations.
 - The project is a Cisco Packet Tracer simulation and is intended to demonstrate configuration and troubleshooting practice.
 
