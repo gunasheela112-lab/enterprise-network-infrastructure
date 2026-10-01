@@ -8,7 +8,7 @@ A multi-VLAN enterprise campus network built and verified in Cisco Packet Tracer
 
 ## Topology
 
-![Enterprise Network Topology](./topology.jpg)
+![Enterprise Network Topology](./topology.png)
 
 - **2 × Cisco 2911 routers** — routed connectivity and NAT/PAT at the network edge
 - **3 × Cisco 3560 multilayer switches** — Layer 3 routing, SVIs, HSRP, and spanning tree
@@ -75,6 +75,8 @@ Example verification:
 ### Internal DNS
 
 An internal DNS server at 192.168.10.100 was configured with the record web.lab.local. Client-side nslookup and ping-by-name tests were used to verify name resolution.
+
+![DNS Verification](./dns%20test.png)
 
 ## Verification
 
