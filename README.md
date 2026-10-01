@@ -76,8 +76,6 @@ Example verification:
 
 An internal DNS server at 192.168.10.100 was configured with the record web.lab.local. Client-side nslookup and ping-by-name tests were used to verify name resolution.
 
-![DNS Verification](./dns-test.jpg)
-
 ## Verification
 
 The network was tested using Cisco Packet Tracer CLI and endpoint connectivity checks, including:
@@ -95,7 +93,7 @@ The network was tested using Cisco Packet Tracer CLI and endpoint connectivity c
 
 - `Enterprise Network.pkt` — main Cisco Packet Tracer project file
 - `configs/` — running configurations captured from the routers and switches
-- Verification screenshots — topology, HSRP/STP, ACL, NAT/PAT, DNS, and connectivity evidence
+- Verification screenshots — topology, HSRP/STP, ACL, NAT/PAT, and connectivity evidence
 
 ## Configuration Files
 
