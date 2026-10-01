@@ -36,7 +36,7 @@ Inter-VLAN routing is provided through SVIs on the multilayer switches.
 - Inter-VLAN routing using SVIs
 - Static routing between internal networks and routed links
 - Rapid PVST+ for loop prevention
-- Multilayer Switch0 configured as the STP root for VLANs 10, 20, 30, 40, 50, and 99 with priority 24576
+- Multilayer Switch0 configured as the STP root for VLANs 10, 20, 30, 40, 50, and 99 with priority 4096
 - HSRP configured for all six VLANs with virtual gateway addresses ending in .254
 - Multilayer Switch0 verified as HSRP Active for all six VLANs with priority 110 and preempt enabled
 
