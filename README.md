@@ -44,7 +44,7 @@ Ping from a host in one VLAN to a host in another VLAN (192.168.20.10) succeeds.
 - Rapid PVST+ for loop prevention
 - Multilayer Switch0 configured as the STP root for VLANs 10, 20, 30, 40, 50, and 99 with priority 4096
 - HSRP configured for all six VLANs with virtual gateway addresses ending in .254
-- Multilayer Switch0 verified as HSRP Active for all six VLANs with priority 110 and preempt enabled
+- Multilayer Switch0 verified as HSRP Active for all six VLANs with priority 150 and preempt enabled
 
 ![HSRP and STP Verification](./hsrp-stp-root.jpg)
 
