@@ -28,6 +28,12 @@ A multi-VLAN enterprise campus network built and verified in Cisco Packet Tracer
 
 Inter-VLAN routing is provided through SVIs on the multilayer switches.
 
+### Inter-VLAN Routing Verification
+
+Ping from a host in one VLAN to a host in another VLAN (192.168.20.10) succeeds. The TTL of 127 shows the packet was routed across one Layer 3 hop.
+
+![Inter-VLAN ping](./intervlan-ping.jpg)
+
 ## Implemented Features
 
 ### Layer 2 and Layer 3
